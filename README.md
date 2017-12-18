@@ -15,5 +15,5 @@
 * `npm start` - Собрать проект и запустить локальный сервер и слежение за файлами
 * `npm test` - Проверка исходных файлов с помощью Editorconfig, Stylelint и ESLint
 
-[travis-image]: https://travis-ci.org/htmlacademy-adaptive/262023-mishka.svg?branch=master
-[travis-url]: https://travis-ci.org/htmlacademy-adaptive/262023-mishka
+[travis-image]: https://travis-ci.org/Ge11ert/template-project.svg?branch=master
+[travis-url]: https://travis-ci.org/Ge11ert/template-project

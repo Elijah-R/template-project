@@ -104,11 +104,11 @@ gulp.task('images', function () {
         imagemin.jpegtran({progressive: true}),
         imagemin.svgo()
       ]))
-      .pipe(gulp.dest('img'));
+      .pipe(gulp.dest('src/img/optimized'));
 });
 
 gulp.task('webp', function () {
   return gulp.src('img/**/*.{jpg,png}')
       .pipe(webp({quality: 85}))
-      .pipe(gulp.dest('img'));
+      .pipe(gulp.dest('src/img/optimized'));
 });
